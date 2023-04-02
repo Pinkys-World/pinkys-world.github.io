@@ -44,8 +44,8 @@ main, header, footer {
 }
 
 footer {
-    text-align:center;
-    padding: 5px;
+    text-align: center;
+    padding:  5px;
     background-color: #abbaba;
     color: #000;
 }
