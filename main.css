@@ -8,6 +8,9 @@ body, button {
 
 table {
 	border-collapse: collapse;
+}
+
+td {
 	border: 1rem ridge black;
 }
 
