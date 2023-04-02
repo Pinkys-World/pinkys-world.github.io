@@ -10,8 +10,13 @@
 col {
 	width: 50%;
 }
+
 table {
 	width: 100%;
+}
+
+td > table {
+	padding: 1rem;
 }
 		</style>
 	</head>
@@ -26,30 +31,24 @@ table {
 		<main>
 			<p>There are eight logical/bitwise operators, as follows:</p>
 			<pre>
-and
-nand
-or
-nor
-xor
-xnor
-buffer
-not
+<code>and</code>
+<code>nand</code>
+<code>or</code>
+<code>nor</code>
+<code>xor</code>
+<code>xnor</code>
+<code>buffer</code>
+<code>not</code>
 			</pre>
 			<p>These are the corresponding truth tables:</p>
 			<table>
-				<colgroup>
-					<col />
-					<col />
-				</colgroup>
+				<colgroup><col /><col /></colgroup>
 				<tbody>
 					<tr>
 						<td><code>and</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true and true</code></td>
@@ -75,10 +74,7 @@ not
 						<td><code>nand</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true nand true</code></td>
@@ -104,10 +100,7 @@ not
 						<td><code>or</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true or true</code></td>
@@ -133,10 +126,7 @@ not
 						<td><code>nor</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true nor true</code></td>
@@ -162,10 +152,7 @@ not
 						<td><code>xor</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true xor true</code></td>
@@ -191,10 +178,7 @@ not
 						<td><code>xnor</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>true xnor true</code></td>
@@ -220,10 +204,7 @@ not
 						<td><code>buffer</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>buffer true</code></td>
@@ -241,10 +222,7 @@ not
 						<td><code>not</code></td>
 						<td>
 							<table>
-								<colgroup>
-									<col />
-									<col />
-								</colgroup>
+								<colgroup><col /><col /></colgroup>
 								<tbody>
 									<tr>
 										<td><code>not true</code></td>
@@ -262,16 +240,16 @@ not
 			</table>
 			<p>There are also compound operators:</p>
 			<pre>
-andset
-nandset
-orset
-norset
-xorset
-xnorset
-bufferset
-notset
+<code>andset</code>
+<code>nandset</code>
+<code>orset</code>
+<code>norset</code>
+<code>xorset</code>
+<code>xnorset</code>
+<code>bufferset</code>
+<code>notset</code>
 			</pre>
-			<p>You probably won't use these eight operators if you're a normal human.</p>
+			<p>You probably won't use these if you're a normal human.</p>
 		</main>
 		<footer>
 			<p><a href="/" hreflang="en-US">pinkys-world.github.io</a></p>
