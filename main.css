@@ -1,9 +1,14 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body, button {
 	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1rem ridge black;
 }
 
 nav.nav {
