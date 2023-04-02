@@ -10,6 +10,13 @@ table {
 	border-collapse: collapse;
 }
 
+code {
+	background-color: #eee;
+	border-radius: 3px;
+	font-family: monospace;
+	padding: 3px;
+}
+
 td {
 	border: 1rem ridge black;
 }
