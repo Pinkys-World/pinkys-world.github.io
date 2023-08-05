@@ -27,20 +27,29 @@
 				padding: 10px 5px;
 				word-break: normal;
 			}
-			table .yellow {
+			table.yellow {
 				background-color: #ffff00;
 				text-align: left;
 				vertical-align: top;
 			}
-			table .lime {
+			table.lime {
 				background-color: #00ff00;
 				text-align: left;
 				vertical-align: top;
 			}
-			table .black {
+			table.black {
 				background-color: #000000;
 				text-align: left;
 				vertical-align: top;
+			}
+			.normal {
+				color: #0080ff;
+			}
+			.tryhard {
+				color: #ff0000;
+			}
+			.rigged {
+				color: #8000ff;
 			}
 		</style>
 	</head>
@@ -51,40 +60,58 @@
 		</nav>
 		<header>
 			<h1>Rocket Arena</h1>
-		</header>
-		<main>
 			<p>Rocket Arena is the second map in Guest War.</p>
+		</header><hr />
+		<main>
+			<h2>Units</h2>
+			<h3>Predeploy</h3>
+			<p>Player(s):</p>
+			<ul>
+				<li>Headquarters x1</li>
+				<li>Deployment Space x8</li>
+			</ul>
+			<p>Enemy:</p>
+			<ul>
+				<li><strong>Outpost</strong> x2</li>
+				<li><strong>Supply Depot</strong> x1</li>
+				<li><span class="normal">Riflemen</span>/<span class="tryhard">Grunts</span>/<span class="rigged">Commando</span> x3<ul>
+					<li>Will spawn near your Headquarters on the tower with the broken bridge.</li>
+				</ul></li>
+			</ul>
+			<p>The enemy will spawn 6 (Singleplayer) or 12 (Multiplayer) units near the Outposts and Supply Depot. The units that can spawn are:</p>
+			<ul>
+				<li><span class="normal">Biker</span>/<span class="tryhard">Scout Car</span>/<span class="rigged">Recon Car</span> x4</li>
+				<li><span class="normal">Supply Truck</span>/<span class="tryhard">Supply</span> <span class="rigged">Carrier</span> x2</li>
+			</ul>
 			<h2>Strategy</h2>
 			<h3>Start</h3>
 			<table>
   				<caption>Use this as a guide to place your units:</caption>
 				<tbody>
-				  <tr>
-				    <td class="black"></td>
-				    <td class="lime"></td>
-				    <td class="lime"></td>
-				  </tr>
-				  <tr>
-				    <td class="yellow"></td>
-				    <td class="lime"></td>
-				    <td class="lime"></td>
-				  </tr>
-				  <tr>
-				    <td class="yellow"></td>
-				    <td class="yellow"></td>
-				    <td class="lime"></td>
-				  </tr>
+					<tr>
+						<td class="black"></td>
+						<td class="lime"></td>
+						<td class="lime"></td>
+					</tr>
+					<tr>
+						<td class="yellow"></td>
+						<td class="lime"></td>
+						<td class="lime"></td>
+					</tr>
+					<tr>
+						<td class="yellow"></td>
+						<td class="yellow"></td>
+						<td class="lime"></td>
+					</tr>
 				</tbody>
 			</table>
 			<dl>
-			    <dt>Lime</dt>
-			    <dd>Anti-tank <strong>and</strong> supply units</dd>
-			
-			    <dt>Yellow</dt>
-			    <dd>Anti-infantry</dd>
-			
-			    <dt>Black</dt>
-			    <dd>Your headquarter</dd>
+				<dt>Lime</dt>
+			    		<dd>Anti-tank <strong>and</strong> supply units</dd>
+				<dt>Yellow</dt>
+			    		<dd>Anti-infantry</dd>
+				<dt>Black</dt>
+			    		<dd>Your headquarters</dd>
 			</dl>
 		</main>
 		<footer>
