@@ -1,0 +1,50 @@
+table td {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+table th {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.normal {
+	color: #0080ff;
+}
+.tryhard {
+	color: #ff0000;
+}
+.rigged {
+	color: #8000ff;
+}
+.normal-tryhard {
+	display: inline-block;
+	background: linear-gradient(to bottom, #0080ff 50%, #ff0000 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.tryhard-rigged {
+	display: inline-block;
+	background: linear-gradient(to bottom, #ff0000 50%, #8000ff 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.all {
+	display: inline-block;
+	background: linear-gradient(to bottom, #0080ff calc(100% / 3), #ff0000 calc(100% / 3) calc(200% / 3), #8000ff calc(200% / 3));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
