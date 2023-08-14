@@ -52,12 +52,12 @@ nav.nav a:hover {
 	color: black;
 }
 
-main, header, footer {
+main, header, footer, section, article {
 	margin-left: 200px;
 	padding-left: 20px;
 }
 
-footer {
+header.header, footer.footer {
     text-align: center;
     padding:  5px;
     background-color: #abbaba;
