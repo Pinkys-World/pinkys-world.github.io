@@ -57,7 +57,7 @@ main, header, footer, section, article {
 	padding-left: 20px;
 }
 
-header.header, footer.footer {
+header.header, footer.footer, section.section, article.article {
     text-align: center;
     padding:  5px;
     background-color: #abbaba;
