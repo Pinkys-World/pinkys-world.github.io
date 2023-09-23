@@ -6,6 +6,31 @@
 		<title>Noobs in Combat Wiki</title>
   		<link rel="stylesheet" href="/main.css" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<style>
+			nav.campaign-nav {
+				background-color: black;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				width: 300px;
+				padding: 10px;
+			}
+			
+			nav.campaign-nav a:nth-child(2) {
+				align-self: center;
+			}
+			
+			nav.campaign-nav a:nth-child(3) {
+				align-self: flex-end;
+			}
+			
+			nav.campaign-nav a {
+				color: lightblue;
+				text-decoration: none;
+				margin: 5px;
+			}
+		</style>
 	</head>
 	<body>
 		<nav class="nav">
@@ -18,9 +43,11 @@
 		<main>
 			<p>Welcome to the Noobs in Combat Wiki!</p>
 			<h2>Campaigns</h2>
-			<a href="/noobsincombat/wiki/guestwar/doomspire.html" hreflang="en-US">Doomspire</a>
-			<a href="/noobsincombat/wiki/guestwar/rocketarena.html" hreflang="en-US">Rocket Arena</a>
-			<a href="/noobsincombat/wiki/guestwar/crossroads.html" hreflang="en-US">Crossroads</a>
+			<nav id="campaign-nav">
+				<a href="/noobsincombat/wiki/guestwar/doomspire.html" hreflang="en-US">Doomspire</a>
+				<a href="/noobsincombat/wiki/guestwar/rocketarena.html" hreflang="en-US">Rocket Arena</a>
+				<a href="/noobsincombat/wiki/guestwar/crossroads.html" hreflang="en-US">Crossroads</a>
+			</nav>
 		</main>
 		<footer>
 			<p><a href="/" hreflang="en-US">pinkys-world.github.io</a></p>
